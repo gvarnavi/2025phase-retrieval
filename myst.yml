@@ -59,19 +59,16 @@ project:
     PCI: phase contrast imaging
   toc:
     - file: 1.index.md
-    - title: Introduction
+    - title: STEM Introduction
       children:
         - file: 2.diffractive-imaging.md
         - file: 3.phase-problem.md
-    - title: STEM Phase Retrieval
+        - file: 4.open-source-algorithms.md
+    - title: Phase Retrieval Methods
       children:
-        - file: 4.center-of-mass-imaging.md
-        - file: 5.tilt-corrected-bf-stem.md
-        - file: 6.iterative-ptychography.md
-    - title: Open Source Methods
-      children:
-        - file: 7.open-source-algorithms.md
-        - file: 8.materials-science-reconstructions.md
+        - file: 5.center-of-mass-imaging.md
+        - file: 6.tilt-corrected-bf-stem.md
+        - file: 7.iterative-ptychography.md
     - title: Notebooks
       children:
         - pattern: notebooks/*.ipynb
